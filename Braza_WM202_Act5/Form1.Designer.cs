@@ -791,6 +791,7 @@
             this.NetInc.TabIndex = 75;
             this.NetInc.Text = "NET INCOME";
             this.NetInc.UseVisualStyleBackColor = false;
+            this.NetInc.Click += new System.EventHandler(this.NetInc_Click);
             // 
             // Save
             // 
@@ -801,6 +802,7 @@
             this.Save.TabIndex = 76;
             this.Save.Text = "SAVE";
             this.Save.UseVisualStyleBackColor = false;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Upd
             // 
